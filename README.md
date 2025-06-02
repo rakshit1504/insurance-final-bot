@@ -19,11 +19,10 @@ Users can interact with the bot by typing `"insurance"` on WhatsApp, choose a pl
 ## 🗂️ Project Structure
 
 ├── server.js # Main server handling webhook and message logic  
-├── database.js # SQLite setup and helper functions  
-├── insurance.db # SQLite DB file with two tables  
+├── database.js # SQLite setup and helper functions   
 ├── .env # Contains API credentials and configs  
 ├── README.md # You're here!  
-└── ...
+└── 
 
 
 ---
