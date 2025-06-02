@@ -10,7 +10,7 @@ Users can interact with the bot by typing `"insurance"` on WhatsApp, choose a pl
 
 - ✅ WhatsApp Cloud API integration with webhook.
 - ✅ SQLite database to store available plans and user selections.
-- ✅ Dynamic PDF generation with user's phone number and insurance details.
+- ✅ **Dynamic PDF generation** with user's phone number and insurance details.
 - ✅ Template message support with pre-attached sample document.
 - ✅ Real-time document upload and delivery via WhatsApp document API.
 
