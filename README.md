@@ -18,11 +18,11 @@ Users can interact with the bot by typing `"insurance"` on WhatsApp, choose a pl
 
 ## 🗂️ Project Structure
 
-├── server.js # Main server handling webhook and message logic
-├── database.js # SQLite setup and helper functions
-├── insurance.db # SQLite DB file with two tables
-├── .env # Contains API credentials and configs
-├── README.md # You're here!
+├── server.js # Main server handling webhook and message logic  
+├── database.js # SQLite setup and helper functions  
+├── insurance.db # SQLite DB file with two tables  
+├── .env # Contains API credentials and configs  
+├── README.md # You're here!  
 └── ...
 
 
@@ -68,13 +68,13 @@ Users can interact with the bot by typing `"insurance"` on WhatsApp, choose a pl
 
 ## 🧪 Sample Interaction
 
-User: insurance
-Bot: [Sends template with insurance.pdf]
-Bot: Please reply with a number (1–5) to choose an insurance plan.
+User: insurance  
+Bot: [Sends template with insurance.pdf]  
+Bot: Please reply with a number (1–5) to choose an insurance plan.  
 
 User: 2
-Bot: You selected "Health Plus": Covers hospitalization, surgeries, etc.
-Bot: [Sends dynamically generated PDF with full details]
+Bot: You selected "Health Plus": Covers hospitalization, surgeries, etc.  
+Bot: [Sends dynamically generated PDF with full details]  
 
 
 
