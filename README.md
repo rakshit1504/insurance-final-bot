@@ -1,6 +1,6 @@
 # WhatsApp Insurance Bot
 
-This project implements a full-stack WhatsApp chatbot using **WhatsApp Cloud API**, **Node.js**, and **PDFKit** to automate insurance plan selection and PDF generation for customers.
+This project implements a full-stack WhatsApp chatbot using **WhatsApp Cloud API**, **Node.js**, and **PDFKit** to automate insurance plan selection and **PDF generation** for customers.
 
 Users can interact with the bot by typing `"insurance"` on WhatsApp, choose a plan from a list, and receive a dynamically generated **PDF insurance document** that includes their details and selected plan information.
 
@@ -97,9 +97,24 @@ CREATE TABLE user_selection (
 ```
 
 
-## 📬 Contact & Feedback
-This project was created as part of a practical WhatsApp Cloud API learning series.
-Feel free to open an issue or discussion for improvements or suggestions.
+## 📤 Testing
+You can test using:
+
+WhatsApp Sandbox or real business account
+
+Tools like ngrok for exposing localhost during dev
+
+
+## 🧑‍💻 Author
+
+Built by **Rakshit Bansal** — learning and exploring how APIs and messaging platforms connect, sending files as attachments in marketing templates.  
+This project was created as part of a practical WhatsApp Cloud API learning series.  
+Feel free to fork or suggest improvements!
+
+
+
+
+
 
 
 
