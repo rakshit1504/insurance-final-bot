@@ -4,7 +4,6 @@ This project implements a full-stack WhatsApp chatbot using **WhatsApp Cloud API
 
 Users can interact with the bot by typing `"insurance"` on WhatsApp, choose a plan from a list, and receive a dynamically generated **PDF insurance document** that includes their details and selected plan information.
 
----
 
 ## 🔧 Features
 
@@ -13,6 +12,13 @@ Users can interact with the bot by typing `"insurance"` on WhatsApp, choose a pl
 - ✅ **Dynamic PDF generation** with user's phone number and insurance details.
 - ✅ Template message support with pre-attached sample document.
 - ✅ Real-time document upload and delivery via WhatsApp document API.
+
+---
+
+## 🖼️ Screenshots & Demos
+
+You can view the chatbot in action and setup steps here:  
+📂 [Screenshots & Demo Videos – Google Drive](https://drive.google.com/drive/folders/your-folder-id-here)
 
 ---
 
@@ -51,7 +57,6 @@ Users can interact with the bot by typing `"insurance"` on WhatsApp, choose a pl
    - `insurance`: stores 5 pre-defined insurance plans
    - `user_selection`: logs user's chosen plan and phone number
 
----
 
 ## 📦 Technologies Used
 
@@ -63,17 +68,16 @@ Users can interact with the bot by typing `"insurance"` on WhatsApp, choose a pl
 | Messaging API | WhatsApp Cloud API (Graph API) |
 | Deployment | Localhost or Glitch/Vercel/Render |
 
----
 
 ## 🧪 Sample Interaction
 
-User: insurance  
-Bot: [Sends template with insurance.pdf]  
-Bot: Please reply with a number (1–5) to choose an insurance plan.  
+> User: insurance  
+> Bot: [Sends template with insurance.pdf]  
+> Bot: Please reply with a number (1–5) to choose an insurance plan.  
 
-User: 2
-Bot: You selected "Health Plus": Covers hospitalization, surgeries, etc.  
-Bot: [Sends dynamically generated PDF with full details]  
+> User: 2
+> Bot: You selected "Health Plus": Covers hospitalization, surgeries, etc.  
+> Bot: [Sends dynamically generated PDF with full details]  
 
 
 
