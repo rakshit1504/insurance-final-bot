@@ -27,8 +27,7 @@ You can view the chatbot in action and setup steps here:
 ├── server.js # Main server handling webhook and message logic  
 ├── database.js # SQLite setup and helper functions   
 ├── .env # Contains API credentials and configs  
-├── README.md # You're here!  
-└── 
+└── README.md # You're here!  
 
 
 ---
@@ -74,8 +73,7 @@ You can view the chatbot in action and setup steps here:
 > User: insurance  
 > Bot: [Sends template with insurance.pdf]  
 > Bot: Please reply with a number (1–5) to choose an insurance plan.  
-
-> User: 2
+> User: 2  
 > Bot: You selected "Health Plus": Covers hospitalization, surgeries, etc.  
 > Bot: [Sends dynamically generated PDF with full details]  
 
