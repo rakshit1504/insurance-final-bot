@@ -1,10 +1,11 @@
 # WhatsApp Insurance Bot  
+
 This project implements a full-stack WhatsApp chatbot using **WhatsApp Cloud API**, **Node.js**, and **PDFKit** to automate insurance plan selection and **PDF generation** for customers.
 
 Users can interact with the bot by typing `"insurance"` on WhatsApp, choose a plan from a list, and receive a dynamically generated **PDF insurance document** that includes their details and selected plan information.
 
 
-## 🔧 Features
+##  Features
 
 - ✅ WhatsApp Cloud API integration with webhook.
 - ✅ SQLite database to store available plans and user selections.
@@ -14,14 +15,14 @@ Users can interact with the bot by typing `"insurance"` on WhatsApp, choose a pl
 
 ---
 
-## 🖼️ Screenshots & Demos
+##  Screenshots & Demos
 
 You can view the chatbot in action and setup steps here:  
 📂 [Screenshots & Demo Videos – Google Drive](https://drive.google.com/drive/folders/1LneZxVGZqtorNXVoHLuG8TV_8K0YcB_0?usp=sharing)
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ├── server.js # Main server handling webhook and message logic  
 ├── database.js # SQLite setup and helper functions   
@@ -31,7 +32,7 @@ You can view the chatbot in action and setup steps here:
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. **Webhook Setup**  
    Webhook is registered with WhatsApp Cloud API and handles incoming messages (`/webhook` endpoint).
@@ -56,7 +57,7 @@ You can view the chatbot in action and setup steps here:
    - `user_selection`: logs user's chosen plan and phone number
 
 
-## 📦 Technologies Used
+##  Technologies Used
 
 | Stack | Tech |
 |-------|------|
@@ -67,7 +68,7 @@ You can view the chatbot in action and setup steps here:
 | Deployment | Localhost or Glitch/Vercel/Render |
 
 
-## 🧪 Sample Interaction
+##  Sample Interaction
 
 > User: insurance  
 > Bot: [Sends template with insurance.pdf]  
@@ -98,7 +99,7 @@ CREATE TABLE user_selection (
 ```
 
 
-## 📤 Testing
+##  Testing
 You can test using:
 
 WhatsApp Sandbox or real business account
@@ -106,7 +107,7 @@ WhatsApp Sandbox or real business account
 Tools like ngrok for exposing localhost during dev
 
 
-## 🧑‍💻 Author
+##  Author
 
 Built by **Rakshit Bansal** — learning and exploring how APIs and messaging platforms connect, sending files as attachments in marketing templates.  
 This project was created as part of a practical WhatsApp Cloud API learning series.  
