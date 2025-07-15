@@ -18,7 +18,7 @@ Users can interact with the bot by typing `"insurance"` on WhatsApp, choose a pl
 ##  Screenshots & Demos
 
 You can view the chatbot in action and setup steps here:  
-📂 [Demo Video – Google Drive](https://drive.google.com/drive/folders/1LneZxVGZqtorNXVoHLuG8TV_8K0YcB_0?usp=sharing)
+📂 [Demo Video – Google Drive](https://drive.google.com/file/d/1Z2WhRPgB-a2gN6zd0Xvfnivs7pvwYNNZ/view?usp=sharing)
 
 ---
 
