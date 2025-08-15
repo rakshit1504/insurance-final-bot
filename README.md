@@ -1,4 +1,4 @@
-# WhatsApp Insurance Bot  
+# WhatsApp Insurance Bot   
 This project implements a full-stack WhatsApp chatbot using **WhatsApp Cloud API**, **Node.js**, and **PDFKit** to automate insurance plan selection and **PDF generation** for customers.
 
 Users can interact with the bot by typing `"insurance"` on WhatsApp, choose a plan from a list, and receive a dynamically generated **PDF insurance document** that includes their details and selected plan information.
